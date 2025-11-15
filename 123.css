@@ -24,6 +24,13 @@ body {
       padding: 120px 0;
       text-align: center;
     }
+    .flag{
+      position: absolute;
+      grid-template-rows: 20px;
+      right: 20px;
+      width: 50px;
+      border-radius: 60%;
+    }
 
     #home h1 {
       font-size: 3rem;
@@ -69,6 +76,7 @@ body {
       width: 300px;
       height: 300px;
       object-fit: cover;
+      
     }
 
     /* Contact Section */
